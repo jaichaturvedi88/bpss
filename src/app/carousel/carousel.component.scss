@@ -1,4 +1,29 @@
-.carousel-inner .carousel-item img{
-    height: 20%;
+// .carousel-inner .carousel-item img{
+//     height: 20%;
+// }
+
+.carousel-wrapper{
+    // height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
 }
 
+// .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+//     width: 50%;
+// }
+
+// .carousel-inner > .carousel-item > img {
+//     border: 5px solid red;
+//     width:100%;
+//     max-width: 100%;
+//     height: auto;
+//     display: block;
+// }
+
+// .carousel-inner {
+//     border:2px solid red;
+//     height:80vh;
+//     width:90vw;
+// }
