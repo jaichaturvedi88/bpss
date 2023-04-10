@@ -1,11 +1,22 @@
 .navbar{
-    background: #d46f04;
+    background: #000000;
+
 }
 .navbar .navbar-brand{
      font-size: 2em;
      font-weight: bold;
+     color: white;
+     margin-left: 3rem;
+     font-family: cursive;
 }
 .nav-item .nav-link{
+    font-family: cursive;
     font-size:1.2em;
+    margin-left: 35px;
     font-weight: bold;
+    color: #ffffff;
+    // background-color: black;
+}
+.navbar-toggler{
+    background-color: #ffffff;
 }
