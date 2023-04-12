@@ -1,7 +1,26 @@
-h1{
-    text-align: center;
+*{
+    margin: 0;
+    padding-bottom: 0;
 }
 
+.bg-color{
+    background: #a9a3a3;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.col{
+    margin: 10px 0px;
+    
+}
+
+.card{
+    padding: 25px 0px;
+    background-color: rgb(240, 244, 243);
+}
 .card img{
 
     height: 150px;
@@ -13,4 +32,12 @@ h1{
 .card-body{
 
     text-align: center;
+}
+
+    
+.bi{
+    
+    margin: 0px 5px;
+    color: black;
+    font-size: 22px;
 }
