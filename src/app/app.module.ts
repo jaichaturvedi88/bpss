@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ContactComponent } from './contact/contact.component';
+import { DemoContactComponent } from './demo-contact/demo-contact.component';
 
 @NgModule({
   declarations: [
@@ -13,12 +14,10 @@ import { ContactComponent } from './contact/contact.component';
     HeaderComponent,
     CarouselComponent,
     ContactComponent,
+    DemoContactComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
