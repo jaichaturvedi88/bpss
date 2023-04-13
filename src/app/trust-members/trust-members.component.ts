@@ -54,7 +54,7 @@ export class TrustMembersComponent implements OnInit {
           console.log(data.results[0])
           member.src = data.results[0].picture.large;
           let name = data.results[0].name;
-          let formattedName = name.title + ' ' + name.first + ' ' + name.last;;
+          let formattedName = name.first + ' ' + name.last;;
           member['name'] = formattedName;
           console.log(formattedName);
         })

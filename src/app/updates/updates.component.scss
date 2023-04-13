@@ -1,12 +1,12 @@
-.updates-heading{
-    margin-top: 2rem;
-    text-align: center;
+.img-size-change{
+    height: 34vh;
+    width: 50vh;
+    // padding: 50px;
+    transition: transform .2s;
+    // margin: 0 auto;
 }
-
-.updates-wrapper {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
+.img-size-change:hover{
+//     -ms-transform: scale(1.5); /* IE 9 */
+//   -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1)
 }

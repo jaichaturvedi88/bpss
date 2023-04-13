@@ -1,12 +1,11 @@
-<h1 class="updates-heading">Updates</h1>
-<div class="updates-wrapper">
-    <div class="card" style="width: 25vw;" *ngFor="let card of cards">
-        <!-- <img src="../../assets/images/updates/updates1.jpeg" class="card-img-top" alt="..."> -->
-        <img [src]="card.src" class="card-img-top" alt="...">
-        <div class="card-body">
-            <!-- <h5 class="card-title">{{card.title}}</h5> -->
-            <!-- <p class="card-text">{{card.text}}</p> -->
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+<div class="container">
+    <h1 class=" text-center fw-light mt-5 mb-0">Updates Gallery</h1>
+    <hr class="mt-2 mb-5">
+    <div class="row text-center text-lg-start">
+        <div class="col-lg-3 col-md-4 col-6" *ngFor="let card of cards">
+            <a href="#" class="d-block mb-4">
+                <img class="img-fluid img-thumbnail img-size-change" [src]="card.src" alt="">
+            </a>
         </div>
     </div>
 </div>
