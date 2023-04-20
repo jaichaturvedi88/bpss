@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { UpdatesImagesComponent } from './updates-images/updates-images.component';
 import { TrustMembersComponent } from './trust-members/trust-members.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { TrustMembersComponent } from './trust-members/trust-members.component';
     CarouselComponent,
     UpdatesImagesComponent,
     TrustMembersComponent,
+    AboutUsComponent,
 
   ],
   imports: [
