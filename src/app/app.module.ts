@@ -7,8 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { UpdatesComponent } from './updates/updates.component';
 import { TrustMembersComponent } from './trust-members/trust-members.component';
-import { UpdatesImagesComponent } from './updates-images/updates-images.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 @NgModule({
@@ -18,8 +18,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     CarouselComponent,
     UpdatesComponent,
     TrustMembersComponent,
-    UpdatesImagesComponent,
     AboutUsComponent,
+    ContactUsComponent,
 
   ],
   imports: [

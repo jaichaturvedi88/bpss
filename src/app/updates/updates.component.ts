@@ -43,6 +43,18 @@ export class UpdatesComponent {
       src:'../../assets/images/updates/updates9.jpeg',
       title:"Card title",
       text: "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },{
+      src:'../../assets/images/updates/updates10.jpeg',
+      title:"Card title",
+      text: "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },{
+      src:'../../assets/images/updates/updates12.jpeg',
+      title:"Card title",
+      text: "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },{
+      src:'../../assets/images/updates/updates14.jpeg',
+      title:"Card title",
+      text: "Some quick example text to build on the card title and make up the bulk of the card's content."
     }
   ]
 
