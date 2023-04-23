@@ -4,14 +4,18 @@
 }
 
 .bg-color{
-    background: #d5d3d3;
+    background: #faf9f9;
     padding: 20px;
 }
-h1{
+.display-1{
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 15px;
+    font-size: 52px;
+
+    font-family: 'DynaPuff', cursive;
+
 }
+
 .col{
     margin: 10px 0px;
     
@@ -20,6 +24,7 @@ h1{
 .card{
     padding: 25px 0px;
     background-color: rgb(240, 244, 243);
+    border-radius: 15px;
 }
 .card img{
 
