@@ -1,22 +1,55 @@
-.navbar{
-    background: #000000;
+html {
+    scroll-padding-top: 4rem;
+  }
 
+.navbar {
+  background: #000000;
 }
-.navbar .navbar-brand{
-     font-size: 2em;
-     font-weight: bold;
-     color: white;
-     margin-left: 1rem;
-     font-family: cursive;
+.navbar .navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  margin-left: 1rem;
+  font-family: cursive;
 }
-.nav-item .nav-link{
-    font-family: cursive;
-    font-size:1.2em;
-    margin-left: 35px;
-    font-weight: bold;
-    color: #ffffff;
-    // background-color: black;
+.nav-item .nav-link {
+  font-family: cursive;
+  font-size: 1.2em;
+  margin-left: 35px;
+  font-weight: bold;
+  color: #ffffff;
+  // background-color: black;
 }
-.navbar-toggler{
-    background-color: #ffffff;
+.navbar-nav .nav-item .active{
+  border-bottom: 2px solid red;
+}
+.navbar-toggler {
+  background-color: #ffffff;
+}
+.nav-item .nav-link:visited,
+.nav-item .nav-link:link {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:active {
+  border-bottom: 2px solid #f81515;
+  color: red;
+}
+@media  (max-width: 990px) {
+    .nav-item .nav-link:visited,
+    .nav-item .nav-link:link {
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-item .nav-link:hover,
+  .nav-item .nav-link:active {
+    border-bottom: 2px solid #f81515;
+    color: red;
+    width: 80px;
+  }
+  .navbar-nav .nav-item .active{
+    width: 60px;
+    border-bottom: 2px solid red;
+  }
 }
