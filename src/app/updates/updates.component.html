@@ -1,23 +1,15 @@
-<!-- <div class="container">
-    <h1 class=" text-center fw-light mt-5 mb-0">Updates Gallery</h1>
-    <hr class="mt-2 mb-5">
-    <div class="row text-center text-lg-start">
-        <div class="col-lg-3 col-md-4 col-6" *ngFor="let card of cards">
-            <a href="#" class="d-block mb-4" onClick="return false;">
-                <img class="img-fluid img-thumbnail img-size-change" [src]="card.src" alt="">
-            </a>
-        </div>
-    </div>
-</div> -->
 
-<div class="container-fluid mt-5 pt-4" id="gallery">
-    <h1 class=" text-center fw-light mt-5 mb-0">Updates Gallery</h1>
+
+<div class="container-fluid bg-light pt-5 pb-3" id="gallery">
+    <h1 class=" text-center text-color pt-3 mb-0">Updates Gallery</h1>
     <hr class="mt-2 mb-5">
+    <div class="container">
     <div class="row text-center text-lg-start">
         <div class="col-lg-3 col-md-4 col-6" *ngFor="let card of cards">
             <a href="#" class="d-block mb-4" onClick="return false;">
                 <img class="img-fluid img-thumbnail img-size-change" [src]="card.src" alt="">
             </a>
-        </div>
+         </div>
+       </div>
     </div>
 </div>
