@@ -3,3 +3,16 @@
     width: 100% !important;
     height: 87vh;
   }
+
+  @media only screen and (max-width: 600px) {
+    .w-100 {
+      width: 100% !important;
+      height: 65vh;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .w-100 {
+      width: 100% !important;
+      height: 55vh;
+    }
+  }

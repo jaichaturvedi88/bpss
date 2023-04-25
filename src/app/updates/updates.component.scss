@@ -1,12 +1,11 @@
 .img-size-change{
     height: 34vh;
     width: 50vh;
-    // padding: 50px;
     transition: transform .2s;
-    // margin: 0 auto;
 }
 .img-size-change:hover{
-//     -ms-transform: scale(1.5); /* IE 9 */
-//   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.1)
+}
+.text-color{
+  color: #108d6f;
 }
