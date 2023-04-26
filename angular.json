@@ -4,6 +4,10 @@
   "newProjectRoot": "projects",
   "projects": {
     "bpss": {
+      "i18n":{
+        "sourceLocale":"en-US",
+        "locales": {"hi":"src/locale/messages.hi.xlf"}
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +21,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": ["en-US"],
             "outputPath": "dist/bpss",
             "index": "src/index.html",
             "main": "src/main.ts",

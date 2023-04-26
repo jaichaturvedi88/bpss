@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+# Jai
+## Commands and notes
+
+### localize notes
+
+ng build --localize  -> this will show 2 locales built
+
+To change development build locale -> make change in angular.json -> architect->build->options->localize
+
+### 
