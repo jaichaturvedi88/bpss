@@ -10,6 +10,7 @@ import { TrustMembersComponent } from './trust-members/trust-members.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     TrustMembersComponent,
     AboutUsComponent,
     ContactUsComponent,
+    LandingPageComponent,
 
   ],
   imports: [

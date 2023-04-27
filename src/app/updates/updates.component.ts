@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-updates',
   templateUrl: './updates.component.html',
   styleUrls: ['./updates.component.scss']
 })
-export class UpdatesComponent {
-  cards = [
+export class UpdatesComponent implements OnInit {
+  public isUpdatesPage = false;
+
+  allCards = [
     {
       src:'assets/images/updates/updates1.jpeg',
       title:"Card title",
@@ -57,7 +60,21 @@ export class UpdatesComponent {
       text: "Some quick example text to build on the card title and make up the bulk of the card's content."
     }
   ]
+  cards: Array<any> = [];
 
+  constructor(private router: Router) {
+    this.isUpdatesPage = this.router.url === '/gallery' ? true : false;
+  }
 
+  ngOnInit(): void {
+    this.bindcards();
+  }
 
+  bindcards(){
+    if(this.isUpdatesPage){
+      this.cards = [...this.allCards];
+    } else {
+      this.cards = this.allCards.slice(6);
+    }
+  }
 }
