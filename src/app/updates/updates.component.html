@@ -10,6 +10,10 @@
                 <img class="img-fluid img-thumbnail img-size-change" [src]="card.src" alt="">
             </a>
          </div>
+         <div class="text-center">
+            <a class="btn btn-outline-success text-center text-color mt-3" role="button" routerLink="/gallery" ariaCurrentWhenActive="page" *ngIf="!isUpdatesPage">See More!</a>
+            <a class="btn btn-outline-success text-center text-color mt-3" role="button" routerLink="" ariaCurrentWhenActive="page" *ngIf="isUpdatesPage">Back</a>
+          </div>
        </div>
     </div>
 </div>
