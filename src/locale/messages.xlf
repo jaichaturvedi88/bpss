@@ -3,7 +3,7 @@
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="5735638134557915512" datatype="html">
-        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/images/icon/parshuram.png&quot; width=&quot;30&quot; height=&quot;40&quot; alt=&quot;website logo&quot; i18n-alt srcset=&quot;&quot;&gt;"/> BPSS</source>
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/images/icon/parshuram.png&quot; width=&quot;30&quot; height=&quot;40&quot; alt=&quot;website logo&quot; i18n-alt srcset=&quot;&quot;&gt;"/> BPSS</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.component.html</context>
           <context context-type="linenumber">4,5</context>

@@ -32,6 +32,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Jai
 ## Commands and notes
 
+## To test service worker 
+ng build 
+npx http-server -p 8080 -c-1 dist/bpss   -> open localhost:8080
+
 ### localize notes
 
 ng build --localize  -> this will show 2 locales built
