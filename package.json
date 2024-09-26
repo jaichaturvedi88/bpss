@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "i18n": "ng extract-i18n --output-path src/locale"
   },
   "private": true,
   "dependencies": {
@@ -15,9 +16,11 @@
     "@angular/compiler": "^15.2.0",
     "@angular/core": "^15.2.0",
     "@angular/forms": "^15.2.0",
+    "@angular/google-maps": "^15.2.6",
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "@angular/service-worker": "15.2.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.4",
     "jquery": "^3.6.4",
@@ -29,6 +32,7 @@
     "@angular-devkit/build-angular": "^15.2.4",
     "@angular/cli": "~15.2.4",
     "@angular/compiler-cli": "^15.2.0",
+    "@angular/localize": "^15.2.6",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",

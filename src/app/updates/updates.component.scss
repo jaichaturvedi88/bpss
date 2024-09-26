@@ -1,0 +1,11 @@
+.img-size-change{
+    height: 34vh;
+    width: 50vh;
+    transition: transform .2s;
+}
+.img-size-change:hover{
+  transform: scale(1.1)
+}
+.text-color{
+  color: #108d6f;
+}

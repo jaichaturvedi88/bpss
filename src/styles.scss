@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+// .container-fluid{
+//     border: 1px solid red;
+// }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    #location-map {
+        height: 100%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}

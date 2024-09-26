@@ -1,0 +1,19 @@
+
+
+<div class="container-fluid bg-light pt-5 pb-3" id="gallery">
+    <h1 class=" text-center text-color pt-3 mb-0">Updates Gallery</h1>
+    <hr class="mt-2 mb-5">
+    <div class="container">
+    <div class="row text-center text-lg-start">
+        <div class="col-lg-4 col-md-6 col-12" *ngFor="let card of cards">
+            <a href="#" class="d-block mb-4" onClick="return false;">
+                <img class="img-fluid img-thumbnail img-size-change" [src]="card.src" alt="">
+            </a>
+         </div>
+         <div class="text-center">
+            <a class="btn btn-outline-success text-center text-color mt-3" role="button" routerLink="/gallery" ariaCurrentWhenActive="page" *ngIf="!isUpdatesPage">See More!</a>
+            <a class="btn btn-outline-success text-center text-color mt-3" role="button" routerLink="" ariaCurrentWhenActive="page" *ngIf="isUpdatesPage">Back</a>
+          </div>
+       </div>
+    </div>
+</div>
